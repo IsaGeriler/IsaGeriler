@@ -1,5 +1,5 @@
 # Hi there, I'm Isa 👋
-![Banner](https://github.com/user-attachments/assets/74ef9bc8-91a4-4be3-99ea-10ba9a6cbceb)
+<!--![Banner](https://github.com/user-attachments/assets/74ef9bc8-91a4-4be3-99ea-10ba9a6cbceb)-->
 
 ## About Me
 I am a Software Engineering graduate and currently pursuing a Master's in Games Engineering at the WMG, University of Warwick. I am passionate about video-games (surprise, Sherlock :smiley:), real-time rendering, computer graphics, and the math behind the pixels.
