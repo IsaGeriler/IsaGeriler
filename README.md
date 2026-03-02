@@ -1,35 +1,51 @@
 # Hi there, I'm Isa 👋
-![Banner](https://github.com/user-attachments/assets/74ef9bc8-91a4-4be3-99ea-10ba9a6cbceb)
+<p align="center">
+  <a href="https://ryu-ga-gotoku.com/kiwami3/">
+    <img src="https://github.com/user-attachments/assets/74ef9bc8-91a4-4be3-99ea-10ba9a6cbceb" alt="Kiryu and Mine Banner" width="100%">
+  </a>
+  <br>
+  <em>"変わる伝説、新たな歴史 - The Legend Evolves, A New History Begins."</em>
+</p>
 
-## About Me
-I am a Software Engineering graduate and currently pursuing a Master's in Games Engineering at the WMG, University of Warwick. I am passionate about video-games (surprise, Sherlock :smiley:), real-time rendering, computer graphics, and the math behind the pixels.
+## 🎓 About Me
+I am a Software Engineering graduate and currently pursuing a **Master's in Games Engineering at WMG, University of Warwick**.
 
-## Current
-I am currently focusing on strengthening my foundation in Graphics Pipeline, C++, DirectX 12 (DX12), and HLSL to prepare for my upcoming research.
+I am passionate about video games (surprise, Sherlock 🕵️‍♂️), **real-time rendering**, **computer graphics**, and the math behind the pixels. My goal is to specialize as a Graphics Programmer, bridging the gap between artistic vision and hardware performance.
 
-## Tech Stack
-**Language**: C++
+## 🔭 Current Focus
+I am currently strengthening my foundation in the **Graphics Pipeline**, **C++**, and **DirectX 12 (DX12)**.
 
-**Graphics API**: DirectX12
+I have been selected for a graphics-focused Master's dissertation under the supervision of **Dr. Thomas Bashford-Rogers**. I am dedicating my current studies to building the technical groundwork required for this upcoming research.
 
-**Shading Language**: HLSL
+## 🛠️ Tech Stack
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![HLSL](https://img.shields.io/badge/HLSL-CC0000?style=flat-square&logo=microsoft&logoColor=white) |
+| **Graphics API** | ![DirectX 12](https://img.shields.io/badge/DirectX%2012-0078D7?style=flat-square&logo=microsoft&logoColor=white) |
+| **Tools & Version Control** | ![RenderDoc](https://img.shields.io/badge/RenderDoc-black?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
-**Tools:** RenderDoc, Git
-
-## Featured Projects
+## 🚀 Featured Projects
 Here are some of the projects I'm proud of:
 
-### [**Rasterizer**](https://github.com/IsaGeriler/RasterizerOptimized)
+### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
+*A CPU-based implementation of the graphics pipeline, accelerated using SIMD intrinsics (SSE/AVX, AVX2) and multithreading.*
 
-### [**WM9M4AssignmentRasterizer5749205**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
+### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
+*Earlier implementation of rasterization techniques.*
 
-### [**WM9M4AssignmentChatRoom5749205**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
+### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
+*Networked application development.*
+- **Focus:** Implementing client-server architecture and handling real-time data transmission.
 
-### [**WORK IN PROGRESS - DX12Engine**](https://github.com/IsaGeriler/DX12Engine)
-_Note: This project is planned to be the improved version of [WM9M2Assignment5749205](https://github.com/IsaGeriler/WM9M2Assignment5749205)_
+### [**DX12Engine (WIP)**](https://github.com/IsaGeriler/DX12Engine)
+*A custom rendering engine built from scratch using DirectX 12.*
+- **Goal:** To master low-level concepts including Descriptor Heaps, Root Signatures, and Pipeline State Objects (PSOs).
+- **Evolution:** This will be the re-architected and improved version of my previous framework ([Coursework Submission](https://github.com/IsaGeriler/WM9M2Assignment5749205)).
 
-## Let's Connect
-**LinkedIn:** [Isa Berk Geriler](https://www.linkedin.com/in/isa-berk-geriler/)
+## 📫 Let's Connect
+<a href="https://www.linkedin.com/in/isa-berk-geriler/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 
 <!--
 **IsaGeriler/IsaGeriler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
