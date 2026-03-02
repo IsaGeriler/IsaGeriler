@@ -22,6 +22,7 @@ I have been selected for a graphics-focused Master's dissertation under the supe
 | :--- | :--- |
 | **Languages** | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![HLSL](https://img.shields.io/badge/HLSL-CC0000?style=flat-square&logo=microsoft&logoColor=white) |
 | **Graphics API** | ![DirectX 12](https://img.shields.io/badge/DirectX%2012-0078D7?style=flat-square&logo=microsoft&logoColor=white) |
+| **Scripting & Processing** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
 | **Tools & Version Control** | ![RenderDoc](https://img.shields.io/badge/RenderDoc-black?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 🚀 Featured Projects
