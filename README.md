@@ -29,14 +29,13 @@ I have been selected for a graphics-focused Master's dissertation under the supe
 Here are some of the projects I'm proud of:
 
 ### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
-*A CPU-based implementation of the graphics pipeline, accelerated using SIMD intrinsics (SSE/AVX, AVX2) and multithreading.*
+*A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques, SIMD intrinsics (SSE/AVX, AVX2) and multithreading.*
 
 ### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
-*Earlier implementation of rasterization techniques.*
+*Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a custom math library for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
 
 ### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
-*Networked application development.*
-- **Focus:** Implementing client-server architecture and handling real-time data transmission.
+*A client-server chat room application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui. Supports public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.*
 
 ### [**DX12Engine (WIP)**](https://github.com/IsaGeriler/DX12Engine)
 *A custom rendering engine built from scratch using DirectX 12.*
