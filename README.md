@@ -8,14 +8,14 @@
 </p>
 
 ## 🎓 About Me
-I am a Software Engineering graduate and currently pursuing a **Master's in Games Engineering at WMG, University of Warwick**.
+I am a Software Engineering graduate currently pursuing a **Master's in Games Engineering at WMG, University of Warwick**.
 
-I am passionate about video games (surprise, Sherlock 🕵️‍♂️), **real-time rendering**, **computer graphics**, and the math behind the pixels. My goal is to specialize as a Graphics Programmer, bridging the gap between artistic vision and hardware performance.
+Passionate about video games (surprise, Sherlock 🕵️‍♂️), **real-time rendering**, **computer graphics**, and the math behind the pixels. My goal is to specialize as a Graphics Programmer, bridging the gap between artistic vision and hardware performance.
 
 ## 🔭 Current Focus
-I am currently strengthening my foundation in the **Graphics Pipeline**, **C++**, and **DirectX 12 (DX12)**.
+Currently, I am strengthening my foundation in the **Graphics Pipeline**, **C++**, and **DirectX 12 (DX12)**.
 
-I have been selected for a graphics-focused Master's dissertation under the supervision of **Dr. Thomas Bashford-Rogers**. I am dedicating my current studies to building the technical groundwork required for this upcoming research.
+Recently, I was selected for a graphics-focused Master's dissertation under the supervision of **Dr. Thomas Bashford-Rogers**. My current studies are dedicated to building the technical groundwork required for this upcoming research.
 
 ## 🛠️ Tech Stack
 | Category | Technologies |
@@ -29,10 +29,11 @@ I have been selected for a graphics-focused Master's dissertation under the supe
 Here are some of the projects I'm proud of:
 
 ### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
-*A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques, SIMD intrinsics (SSE/AVX, AVX2) and multithreading.*
+*A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques and multithreading.*
+- **Tech:** C++, SIMD (SSE/AVX, AVX2), Multi-threading
 
 ### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
-*Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a custom math library for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
+*Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a math library written from scratch, for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
 
 ### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
 *A client-server chat room application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui. Supports public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.*
@@ -45,6 +46,12 @@ Here are some of the projects I'm proud of:
 ## 📫 Let's Connect
 <a href="https://www.linkedin.com/in/isa-berk-geriler/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:gerilerisaberk@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" />
+</a>
+<a href="mailto:Isa.Geriler@warwick.ac.uk">
+  <img src="https://img.shields.io/badge/Warwick_Email-6A329F?style=for-the-badge&logo=microsoft-academic&logoColor=white" alt="Uni Email" />
 </a>
 
 <!--
