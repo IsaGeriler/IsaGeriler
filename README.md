@@ -32,6 +32,9 @@ Here are some of the projects I'm proud of:
 *A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques and multithreading.*
 - **Tech:** C++, SIMD (SSE/AVX, AVX2), Multi-threading
 
+### [**Offline Ray Tracer (WIP)**](https://github.com/IsaGeriler/RayTracer)
+*An ongoing C++, offline ray tracer (CPU-based) acting as a proving ground for light transport math. Currently encompasses the full Ray Tracing in One Weekend (Shirley et al., 2025) architecture, extending into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial intersection costs. The BVH build is parallelized utilizing C++17 executions (std::execution::par) to keep the CPU fed. Actively working through the rest of the trilogy to build out the full advanced feature set, and to extend it to multithreaded programming.*
+
 ### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
 *Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a math library written from scratch, for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
 
