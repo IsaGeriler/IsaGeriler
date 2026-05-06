@@ -28,6 +28,9 @@ Recently, I was selected for a graphics-focused Master's dissertation under the 
 ## 🚀 Featured Projects
 Here are some of the projects I'm proud of:
 
+### [**Path Tracer & Light Transport Engine**](https://github.com/IsaGeriler/RTBase_5749205)
+*An extended, CPU-based multithreaded, Physically Based Renderer written in C++, built to explore advanced light transport and microfacet models. The core architecture supports standard Path Tracing alongside Instant Radiosity and Light Tracing integrators. For the Instant Radiosity implementation, Halton Sampler (a quasi-Monte Carlo sampler) is utilized, relying on prime bases for the Radical Inverse. The material framework handles GGX Microfacets (Conductor BSDF, sampled proportionally to the NDF), Plastic BSDF (using Phong model), Oren-Nayar BSDF, and Layered BSDF which evaluating Beer's Law for attenuation. Render times and variance are managed via a Binned SAH BVH, tile-based rendering, Multiple Importance Sampling (MIS) for Latitude-Longitude based Environment Maps (utilizing a luminance-based PDF), and custom AOV outputs to support Intel OIDN for denoising (post-processing).*
+
 ### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
 *A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques and multithreading.*
 - **Tech:** C++, SIMD (SSE/AVX, AVX2), Multi-threading
