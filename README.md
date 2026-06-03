@@ -28,8 +28,12 @@ Recently, I was selected for a graphics-focused Master's dissertation under the 
 ## 🚀 Featured Projects
 Here are some of the projects I'm proud of:
 
+---
+
 ### [**Path Tracer & Light Transport Engine**](https://github.com/IsaGeriler/RTBase_5749205)
 *An extended, CPU-based multithreaded, Physically Based Renderer written in C++, built to explore advanced light transport and microfacet models. The core architecture supports standard Path Tracing alongside Instant Radiosity and Light Tracing integrators. For the Instant Radiosity implementation, Halton Sampler (a quasi-Monte Carlo sampler) is utilized, relying on prime bases for the Radical Inverse. The material framework handles GGX Microfacets (Conductor BSDF, sampled proportionally to the NDF), Plastic BSDF (using Phong model), Oren-Nayar BSDF, and Layered BSDF which evaluating Beer's Law for attenuation. Render times and variance are managed via a Binned SAH BVH, tile-based rendering, Multiple Importance Sampling (MIS) for Latitude-Longitude based Environment Maps (utilizing a luminance-based PDF), and custom AOV outputs to support Intel OIDN for denoising (post-processing).*
+
+**Tech:** C++ · Path Tracing · Instant Radiosity · SAH BVH · MIS · GGX / Layered BSDFs · Intel OIDN
 
 <p align="center">
   <img src="assets/Kitchen128SPP.png" alt="Kitchen scene, 128 spp path-traced" width="48%">
@@ -41,9 +45,12 @@ Here are some of the projects I'm proud of:
 </p>
 <p align="center"><em>Materials test: GGX conductor, Plastic, Oren-Nayar, Glass, and Mirror BSDFs.</em></p>
 
+---
+
 ### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
 *A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques and multithreading.*
-- **Tech:** C++, SIMD (SSE/AVX, AVX2), Multi-threading
+
+**Tech:** C++ · SIMD (SSE/AVX/AVX2) · Multithreading
 
 <p align="center">
   <img src="assets/Scene1.png" alt="Optimized rasterizer, scene 1" width="32%">
@@ -51,16 +58,24 @@ Here are some of the projects I'm proud of:
   <img src="assets/Scene3.png" alt="Optimized rasterizer, scene 3" width="32%">
 </p>
 
+---
+
 ### [**Offline Ray Tracer (WIP)**](https://github.com/IsaGeriler/RayTracer)
 *An ongoing multithreaded offline ray tracer (CPU-based), written in C++, acting as a proving ground for light transport math. Currently encompasses the full Ray Tracing in One Weekend (Shirley et al., 2025) architecture, extending into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial intersection costs. The BVH build is parallelized utilizing C++17 executions (std::execution::par) to keep the CPU fed. Actively working through the rest of the trilogy to build out the full advanced feature set.*
+
+**Tech:** C++ · Ray Tracing · Motion Blur · Custom BVH · std::execution::par
 
 <p align="center">
   <img src="assets/RTMB.jpg" alt="Offline ray tracer with motion blur" width="80%">
 </p>
 <p align="center"><em>Motion blur, integrated from book two.</em></p>
 
+---
+
 ### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
 *Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a math library written from scratch, for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
+
+**Tech:** C++ · Rasterization · MVP Pipeline · Perspective-Correct Interpolation · Z-buffer
 
 <p align="center">
   <img src="assets/BunnyShaded.jpg" alt="Stanford bunny, shaded" width="48%">
@@ -68,21 +83,31 @@ Here are some of the projects I'm proud of:
 </p>
 <p align="center"><em>Stanford bunny parsed from a .gem mesh: shaded (left) and geometry (right).</em></p>
 
+---
+
 ### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
 *A client-server chat room application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui. Supports public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.*
+
+**Tech:** C++ · WinSock · Dear ImGui · FMOD
 
 <p align="center">
   <img src="assets/ChatRoom.png" alt="Dear ImGui chat client" width="80%">
 </p>
+
+---
 
 ### [**DX12Engine (WIP)**](https://github.com/IsaGeriler/DX12Engine)
 *A custom rendering engine built from scratch using DirectX 12.*
 - **Goal:** To master low-level concepts including Descriptor Heaps, Root Signatures, and Pipeline State Objects (PSOs).
 - **Evolution:** This will be the re-architected and improved version of my previous framework ([Coursework Submission](https://github.com/IsaGeriler/WM9M2Assignment5749205)).
 
+**Tech:** C++ · DirectX 12 · Descriptor Heaps · Root Signatures · PSOs
+
 <p align="center">
   <img src="assets/AfterRoughnessMapping.png" alt="DX12 engine, roughness mapping" width="80%">
 </p>
+
+---
 
 ## 📫 Let's Connect
 <a href="https://www.linkedin.com/in/isa-berk-geriler/">
@@ -94,18 +119,3 @@ Here are some of the projects I'm proud of:
 <a href="mailto:Isa.Geriler@warwick.ac.uk">
   <img src="https://img.shields.io/badge/Warwick_Email-6A329F?style=for-the-badge&logo=microsoft-academic&logoColor=white" alt="Uni Email" />
 </a>
-
-<!--
-**IsaGeriler/IsaGeriler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
