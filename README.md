@@ -132,7 +132,7 @@ A multithreaded networking application showcasing system-level programming outsi
 ---
 
 ## 📫 Let's Connect
-<a href="https://www.linkedin.com/in/isa-berk-geriler/">
+<a href="https://www.linkedin.com/in/isa-geriler/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="mailto:gerilerisaberk@gmail.com">
