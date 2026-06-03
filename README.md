@@ -40,7 +40,7 @@ A multithreaded, physically based CPU renderer in C++, built to explore advanced
 - Render time and variance managed with a **Binned SAH BVH**, tile-based rendering, and **Multiple Importance Sampling** for latitude-longitude environment maps (luminance-based PDF).
 - Custom AOV outputs feed **Intel OIDN** for post-process denoising.
 
-**Tech:** C++ · Path Tracing · Instant Radiosity · SAH BVH · MIS · GGX / Layered BSDFs · Intel OIDN
+**Tech:** C++ · Multithreading · Ray Tracing · Path Tracing · Instant Radiosity · Light Tracing · BVH · MIS · PBR · Intel OIDN
 
 <p align="center">
   <img src="assets/Kitchen128SPP.png" alt="Kitchen scene, 128 spp path-traced" width="48%">
@@ -68,9 +68,9 @@ A CPU implementation of the graphics pipeline, hand-optimized for throughput wit
 ---
 
 ### [**Offline Ray Tracer (WIP)**](https://github.com/IsaGeriler/RayTracer)
-An ongoing multithreaded CPU ray tracer in C++, and a proving ground for light-transport math. It implements the full *Ray Tracing in One Weekend* (Shirley et al., 2025) architecture and extends into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial-intersection costs. The BVH build is parallelized via C++17 `std::execution::par` to keep the CPU fed, and I'm working through the rest of the trilogy to build out the full feature set.
+An ongoing multithreaded CPU ray tracer in C++, and a proving ground for light-transport math. It implements the full *Ray Tracing in One Weekend* (Shirley et al., 2025) architecture and extends into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial-intersection costs. The scanline rendering is done via multithreading, and the BVH build is parallelized via C++17 `std::execution::par` to keep the CPU fed, and I'm working through the rest of the trilogy to build out the full feature set.
 
-**Tech:** C++ · Ray Tracing · Motion Blur · Custom BVH · std::execution::par
+**Tech:** C++ · Ray Tracing · Motion Blur · BVH · Multithreading
 
 <p align="center">
   <img src="assets/RTMB.jpg" alt="Offline ray tracer with motion blur" width="80%">
@@ -95,7 +95,7 @@ An earlier rasterizer implementing the full Model-View-Projection (MVP) transfor
 ### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
 A client-server chat application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui, supporting public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.
 
-**Tech:** C++ · WinSock · Dear ImGui · FMOD
+**Tech:** C++ · Multithreading · WinSock · Dear ImGui · FMOD
 
 <p align="center">
   <img src="assets/ChatRoom.png" alt="Dear ImGui chat client" width="80%">
@@ -109,7 +109,7 @@ A custom rendering engine built from scratch using DirectX 12.
 - **Goal:** To master low-level concepts including Descriptor Heaps, Root Signatures, and Pipeline State Objects (PSOs).
 - **Evolution:** This will be the re-architected and improved version of my previous framework ([Coursework Submission](https://github.com/IsaGeriler/WM9M2Assignment5749205)).
 
-**Tech:** C++ · DirectX 12 · Descriptor Heaps · Root Signatures · PSOs
+**Tech:** C++ · HLSL · DirectX 12 · Descriptor Heaps · Root Signatures · PSOs
 
 <p align="center">
   <img src="assets/AfterRoughnessMapping.png" alt="DX12 engine, roughness mapping" width="80%">
