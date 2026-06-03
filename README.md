@@ -7,10 +7,12 @@
   <em>"変わる伝説、新たな歴史 - The Legend Evolves, A New History Begins."</em>
 </p>
 
-## 🎓 About Me
-I am a Software Engineering graduate currently pursuing a **Master's in Games Engineering at WMG, University of Warwick**.
+> 🔎 **Open to Graphics / Rendering Programmer roles and internships** (Summer 2026 onward).
 
-Passionate about video games (surprise, Sherlock 🕵️‍♂️), **real-time rendering**, **computer graphics**, and the math behind the pixels. My goal is to specialize as a Graphics Programmer, bridging the gap between artistic vision and hardware performance.
+## 🎓 About Me
+I am a Software Engineering graduate pursuing a **Master's in Games Engineering at WMG, University of Warwick**. I spend most of my time on **real-time rendering** and **computer graphics**: writing renderers, reading papers, and working out why the image looks wrong. I like video games too (surprise, Sherlock 🕵️‍♂️), and I'm aiming to specialize as a **Graphics Programmer**.
+
+📄 [**Download my CV**](assets/CV-IsaGeriler.pdf)
 
 ## 🔭 Current Focus
 Currently, I am strengthening my foundation in the **Graphics Pipeline**, **C++**, and **DirectX 12 (DX12)**.
@@ -31,7 +33,12 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**Path Tracer & Light Transport Engine**](https://github.com/IsaGeriler/RTBase_5749205)
-*An extended, CPU-based multithreaded, Physically Based Renderer written in C++, built to explore advanced light transport and microfacet models. The core architecture supports standard Path Tracing alongside Instant Radiosity and Light Tracing integrators. For the Instant Radiosity implementation, Halton Sampler (a quasi-Monte Carlo sampler) is utilized, relying on prime bases for the Radical Inverse. The material framework handles GGX Microfacets (Conductor BSDF, sampled proportionally to the NDF), Plastic BSDF (using Phong model), Oren-Nayar BSDF, and Layered BSDF which evaluating Beer's Law for attenuation. Render times and variance are managed via a Binned SAH BVH, tile-based rendering, Multiple Importance Sampling (MIS) for Latitude-Longitude based Environment Maps (utilizing a luminance-based PDF), and custom AOV outputs to support Intel OIDN for denoising (post-processing).*
+A multithreaded, physically based CPU renderer in C++, built to explore advanced light transport and microfacet models.
+
+- Three integrators in one architecture: **Path Tracing**, **Instant Radiosity**, and **Light Tracing**. Instant Radiosity uses a Halton quasi-Monte Carlo sampler relying on prime bases for the Radical Inverse.
+- Material framework: GGX microfacets (Conductor BSDF, sampled proportionally to the NDF), Plastic (Phong model), Oren-Nayar, and a Layered BSDF that evaluates Beer's Law for attenuation.
+- Render time and variance managed with a **Binned SAH BVH**, tile-based rendering, and **Multiple Importance Sampling** for latitude-longitude environment maps (luminance-based PDF).
+- Custom AOV outputs feed **Intel OIDN** for post-process denoising.
 
 **Tech:** C++ · Path Tracing · Instant Radiosity · SAH BVH · MIS · GGX / Layered BSDFs · Intel OIDN
 
@@ -48,7 +55,7 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**Optimized Software Rasterizer**](https://github.com/IsaGeriler/WM9M4AssignmentRasterizer5749205)
-*A CPU-based implementation of the graphics pipeline, accelerated using optimization techniques and multithreading.*
+A CPU implementation of the graphics pipeline, hand-optimized for throughput with SIMD and multithreading.
 
 **Tech:** C++ · SIMD (SSE/AVX/AVX2) · Multithreading
 
@@ -61,7 +68,7 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**Offline Ray Tracer (WIP)**](https://github.com/IsaGeriler/RayTracer)
-*An ongoing multithreaded offline ray tracer (CPU-based), written in C++, acting as a proving ground for light transport math. Currently encompasses the full Ray Tracing in One Weekend (Shirley et al., 2025) architecture, extending into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial intersection costs. The BVH build is parallelized utilizing C++17 executions (std::execution::par) to keep the CPU fed. Actively working through the rest of the trilogy to build out the full advanced feature set.*
+An ongoing multithreaded CPU ray tracer in C++, and a proving ground for light-transport math. It implements the full *Ray Tracing in One Weekend* (Shirley et al., 2025) architecture and extends into book two with integrated Motion Blur and a custom Bounding Volume Hierarchy (BVH) to drop spatial-intersection costs. The BVH build is parallelized via C++17 `std::execution::par` to keep the CPU fed, and I'm working through the rest of the trilogy to build out the full feature set.
 
 **Tech:** C++ · Ray Tracing · Motion Blur · Custom BVH · std::execution::par
 
@@ -73,7 +80,7 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**Software Rasterizer (Legacy)**](https://github.com/IsaGeriler/Rasterizer)
-*Earlier implementation of rasterization techniques. Implements the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting using a math library written from scratch, for matrices, vectors, and homogeneous coordinates. Parses .gem mesh files and renders with pixel-perfect rasterization.*
+An earlier rasterizer implementing the full Model-View-Projection (MVP) transformation chain, perspective-correct interpolation, depth buffering, and Lambertian lighting, all on a math library written from scratch (matrices, vectors, and homogeneous coordinates). Parses .gem mesh files and renders with pixel-perfect rasterization.
 
 **Tech:** C++ · Rasterization · MVP Pipeline · Perspective-Correct Interpolation · Z-buffer
 
@@ -86,7 +93,7 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**Chat Room**](https://github.com/IsaGeriler/WM9M4AssignmentChatRoom5749205)
-*A client-server chat room application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui. Supports public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.*
+A client-server chat application built from scratch using WinSock for networking. The server handles multiple clients concurrently, while the client features a graphical interface built with Dear ImGui, supporting public broadcast messages and private 1-to-1 direct messages (DMs). FMOD integration provides real-time sound notifications for incoming messages.
 
 **Tech:** C++ · WinSock · Dear ImGui · FMOD
 
@@ -97,7 +104,8 @@ Here are some of the projects I'm proud of:
 ---
 
 ### [**DX12Engine (WIP)**](https://github.com/IsaGeriler/DX12Engine)
-*A custom rendering engine built from scratch using DirectX 12.*
+A custom rendering engine built from scratch using DirectX 12.
+
 - **Goal:** To master low-level concepts including Descriptor Heaps, Root Signatures, and Pipeline State Objects (PSOs).
 - **Evolution:** This will be the re-architected and improved version of my previous framework ([Coursework Submission](https://github.com/IsaGeriler/WM9M2Assignment5749205)).
 
