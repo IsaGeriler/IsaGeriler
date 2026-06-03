@@ -1,10 +1,8 @@
 # Hi there, I'm Isa 👋
 <p align="center">
-  <a href="https://ryu-ga-gotoku.com/kiwami3/">
-    <img src="https://github.com/user-attachments/assets/74ef9bc8-91a4-4be3-99ea-10ba9a6cbceb" alt="Kiryu and Mine Banner" width="100%">
-  </a>
+  <img src="assets/Banner.png" alt="A strip of renders from my path tracer, ray tracer, and rasterizers" width="100%">
   <br>
-  <em>"変わる伝説、新たな歴史 - The Legend Evolves, A New History Begins."</em>
+  <em>A few frames from my own Ray Tracer.</em>
 </p>
 
 > 🔎 **Open to Graphics / Rendering Programmer roles and internships** (Summer 2026 onward).
